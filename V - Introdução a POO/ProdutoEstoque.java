@@ -60,7 +60,7 @@ public class ProdutoEstoque {
 		*System.out.println("Entre com um N° de Consoles para serem del do Estoque: ");
 		*quantidade = leia.nextInt();
 		*produto.removerProduto(quantidade);
-		*System.out.println(produto.toString());		
+		*System.out.println(produto.toString());	
 		
 		//double total = produto.valorTotalEmEstoque();
 		/*System.out.printf("Console: %s%n"
