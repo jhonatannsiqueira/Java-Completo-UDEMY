@@ -51,6 +51,7 @@ public class ProdutoEstoque {
 		default:
 			System.out.println("Opção INVÁLIDA!!");
 		}
+		
 		/*System.out.println("Entre com um N° de Consoles para serem add ao Estoque: ");
 		*int quantidade = leia.nextInt();
 		*produto.addProduto(quantidade); //Fará a atualização da quantidade dentro do Objeto produto
@@ -59,14 +60,14 @@ public class ProdutoEstoque {
 		*System.out.println("Entre com um N° de Consoles para serem del do Estoque: ");
 		*quantidade = leia.nextInt();
 		*produto.removerProduto(quantidade);
-		*System.out.println(produto.toString());		
+		*System.out.println(produto.toString());	
 		
 		//double total = produto.valorTotalEmEstoque();
 		/*System.out.printf("Console: %s%n"
 		*		+ "Custa R$%.2f%n"
 		*		+ "Quantidade em Estoque: %d"
 		*		+ "$$$ deste Produto em Estoque: R$%.2f", produto.nome, produto.preco, produto.quantidadeEstoque, total);
-		*/		
+		*/
 
 	}
 
