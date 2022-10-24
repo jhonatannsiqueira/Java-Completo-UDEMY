@@ -51,6 +51,7 @@ public class ProdutoEstoque {
 		default:
 			System.out.println("Opção INVÁLIDA!!");
 		}
+		
 		/*System.out.println("Entre com um N° de Consoles para serem add ao Estoque: ");
 		*int quantidade = leia.nextInt();
 		*produto.addProduto(quantidade); //Fará a atualização da quantidade dentro do Objeto produto
