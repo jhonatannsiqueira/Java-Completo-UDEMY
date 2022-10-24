@@ -67,7 +67,7 @@ public class ProdutoEstoque {
 		*		+ "Custa R$%.2f%n"
 		*		+ "Quantidade em Estoque: %d"
 		*		+ "$$$ deste Produto em Estoque: R$%.2f", produto.nome, produto.preco, produto.quantidadeEstoque, total);
-		*/		
+		*/
 
 	}
 
