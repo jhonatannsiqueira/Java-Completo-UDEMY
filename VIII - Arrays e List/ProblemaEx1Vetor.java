@@ -8,15 +8,15 @@ public class ProblemaEx1Vetor {
 	public static void main(String[] args) {
 
 		/*
-		 * Fazer um programa para ler um número inteiro N e a altura de N pessoas.
-		 * Armazene as N alturas em um vetor. Em seguida, mostrar a altura média dessas
+		 * Fazer um programa para ler um nÃºmero inteiro N e a altura de N pessoas.
+		 * Armazene as N alturas em um vetor. Em seguida, mostrar a altura mÃ©dia dessas
 		 * pessoas.
 		 */
 
 		Locale.setDefault(Locale.US);
 		Scanner leia = new Scanner(System.in);
 
-		System.out.println("Informe um N° de Pessoas: ");
+		System.out.println("Informe um NÂ° de Pessoas: ");
 		int n = leia.nextInt();
 		double[] vetor = new double[n];
 
@@ -32,7 +32,9 @@ public class ProblemaEx1Vetor {
 
 		double media = soma / n;
 
-		System.out.printf("A Média de Altura é: %.2f%n", media);
+		System.out.printf("A MÃ©dia de Altura Ã©: %.2f%n", media);
+		
+		leia.close();
 
 	}
 
